@@ -1,13 +1,14 @@
 import react from 'react'
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faUser} from "@fortawesome/free-solid-svg-icons";
 
 const navigation = [
   { name: 'Cources', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
-]
+  { name: 'About Me', href: '#', current: false },
+  { name: 'Blog', href: '#', current: false },
+ ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -29,11 +30,8 @@ export default function Navbar() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
-              <img
-                alt="Your Company"
-                src=""
-                className="h-8 w-auto"
-              />
+               <span className='font-extrabold'>Deutsch</span>
+               <span className='text-orange-700 font-extrabold'>Ecke</span>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
@@ -44,7 +42,7 @@ export default function Navbar() {
                     aria-current={item.current ? 'page' : undefined}
                     className={classNames(
                       item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                      'rounded-md px-3 py-2 text-sm font-medium',
+                      'rounded-md px-3 py-2 text-sm font-medium hover:text-orange-700',
                     )}
                   >
                     {item.name}
@@ -66,14 +64,15 @@ export default function Navbar() {
             {/* Profile dropdown */}
             <Menu as="div" className="relative ml-3">
               <div>
-                <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+                <MenuButton className="
+                relative flex rounded-full bg-gray-800 text-sm 
+                 hover:bg-orange-700 focus:ring-2 focus:ring-white 
+                  p-2">
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">Open user menu</span>
-                  <img
-                    alt=""
-                    src=" "
-                    className="size-8 rounded-full"
-                  />
+                  {/** HIER ADD YOUR PROFILE ICON */}
+                  <FontAwesomeIcon icon={faUser} className='text-xl rounded-full hover:bg-orange-700' />
+
                 </MenuButton>
               </div>
               <MenuItems
