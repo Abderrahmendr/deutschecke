@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
 
 const navigation = [
-  { name: 'Cources', href: '#', current: true },
-  { name: 'About Me', href: '#', current: false },
-  { name: 'Blog', href: '#', current: false },
+  { name: 'Cources', href: '/Course', current: true },
+  { name: 'About Me', href: '/about', current: false },
+  { name: 'Blog', href: '/blog', current: false },
  ]
 
 function classNames(...classes) {

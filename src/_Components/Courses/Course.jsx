@@ -1,0 +1,38 @@
+import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+
+const levelCard = [
+  { name: "A1", href: "/Courses/A1/LevelA1" }, 
+  { name: "A2", href: "/Courses/A2/LevelA2" },  
+  { name: "B1", href: "/Courses/B1/LevelB1" },  
+  { name: "B2", href: "/Courses/B2/LevelB2" },  
+  { name: "C1", href: "/Courses/C1/LevelC1" },   
+   
+];
+
+const Course = () => {
+  return (
+    <div className="grid grid-cols-3 gap-4 m-10">
+      {levelCard.map((level) => (
+        <div 
+          key={level.name} // Moved key here (should be on the outermost element in the map)
+          className="
+            flex items-center justify-center 
+            h-80 w-75 border-2 border-gray-300
+            cursor-pointer shadow-lg shadow-gray-200
+            hover:scale-105 transition-transform duration-300
+          "
+        >
+          <Link 
+            to={level.href} // Changed to 'to' prop
+            className="w-full h-full flex items-center justify-center" // Added for full clickable area
+          >
+            {level.name}
+          </Link>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default Course;
