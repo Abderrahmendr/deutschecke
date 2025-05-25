@@ -10,9 +10,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-
-    <BrowserRouter>
-      <Navbar />
+    <div className='bg-gray-100 min-h-screen'>
+          <BrowserRouter>
+      <Navbar   />
     <Routes>
         <Route path="/Course" element={<Course />} /> 
         <Route path="/Courses/ LevelA1" element={<  LevelA1 />} />
@@ -22,6 +22,8 @@ function App() {
         <Route path="/Courses/C1/LevelC1" element={<  LevelC1 />} />
     </Routes>  
     </BrowserRouter>
+        </div>
+   
 
 
   );
