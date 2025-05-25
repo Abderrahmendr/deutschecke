@@ -21,22 +21,24 @@ import { Link } from 'react-router-dom';
             h-80 w-75 border-2 border-gray-300
             cursor-pointer shadow-lg shadow-gray-200
             hover:scale-105 transition-transform duration-300
-            rounded-full  bg-cover bg-center   
+            rounded-full    
           "  
          >
-
+              
           <Link 
             to={level.href}  
             className="w-full h-full flex items-center justify-center"  
           >
+                      
+
             {level.name}
 
              </Link>
              
+             
         </div>
       ))}
-           <img src="./assets/images/flag.png" alt="Flag"   />
-
+ 
     </div>
   );
 }
