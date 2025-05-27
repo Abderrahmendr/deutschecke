@@ -29,11 +29,17 @@ export default function Navbar() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                        {/** Logo */}
             <div className="flex shrink-0 items-center">
-               <span className='font-extrabold'>Deutsch</span>
-               <span className='text-[#FFCC00] font-extrabold'>Ecke</span>
+               <span className='font-extrabold'>Deuts</span>
+                               <img src="/flag.png" alt="Logo" className=" bg-cover bg-center left-8 opacity-80 top-4  z-10 object-cover h-8 w-8 ml-2 inset-0" />
+
+               <span className='text-[#DD0000] font-extrabold'>chE</span>
+               <span className='text-[#FFCC00] font-extrabold'>cke</span>
+
             </div>
             <div className="hidden sm:ml-6 sm:block">
+                        {/** Navigation Links */}
               <div className="flex space-x-4">
                 {navigation.map((item) => (
                   <a
@@ -54,7 +60,7 @@ export default function Navbar() {
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               type="button"
-              className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden"
+              className="relative rounded-full  p-1 text-gray-400 hover:text-[#FFCC00] focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden"
             >
               <span className="absolute -inset-1.5" />
               <span className="sr-only">View notifications</span>
@@ -65,19 +71,22 @@ export default function Navbar() {
             <Menu as="div" className="relative ml-3">
               <div>
                 <MenuButton className="
-                relative flex rounded-full bg-gray-800 text-sm 
-                 hover:bg-orange-700 focus:ring-2 focus:ring-white 
+                relative flex rounded-full hover:scale-125 text-sm 
+                  focus:ring-2 focus:ring-white 
                   p-2">
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">Open user menu</span>
-                  {/** HIER ADD YOUR PROFILE ICON */}
-                  <FontAwesomeIcon icon={faUser} className='text-xl rounded-full hover:bg-orange-700' />
+                   <FontAwesomeIcon icon={faUser} className='text-xl rounded-full  ' />
 
                 </MenuButton>
               </div>
               <MenuItems
                 transition
-                className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 transition focus:outline-hidden data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in"
+                className="absolute right-0 z-10 mt-2 w-48 origin-top-right
+                 rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 
+                 transition focus:outline-hidden data-closed:scale-95 
+                 data-closed:transform data-closed:opacity-0 data-enter:duration-100 
+                 data-enter:ease-out data-leave:duration-75 data-leave:ease-in"
               >
                 <MenuItem>
                   <a
