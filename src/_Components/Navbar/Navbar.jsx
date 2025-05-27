@@ -32,8 +32,6 @@ export default function Navbar() {
                         {/** Logo */}
             <div className="flex shrink-0 items-center">
                <span className='font-extrabold'>Deuts</span>
-                               <img src="/flag.png" alt="Logo" className=" bg-cover bg-center left-8 opacity-80 top-4  z-10 object-cover h-8 w-8 ml-2 inset-0" />
-
                <span className='text-[#DD0000] font-extrabold'>chE</span>
                <span className='text-[#FFCC00] font-extrabold'>cke</span>
 
