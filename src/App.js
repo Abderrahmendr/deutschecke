@@ -7,15 +7,16 @@ import  LevelB1 from './_Components/Courses/B1/LevelB1';
 import  LevelB2 from './_Components/Courses/B2/LevelB2';
 import  LevelC1 from './_Components/Courses/C1/LevelC1';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Hero from './_Components/Hero/Hero';
+import Home from './_Components/Home/Home';
 
 function App() {
   return (
     <div className='bg-gray-100 min-h-screen'>
-          <BrowserRouter>
+    <BrowserRouter>
       <Navbar   />
-      <Hero/>
+       
     <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/Course" element={<Course />} /> 
         <Route path="/Courses/ LevelA1" element={<  LevelA1 />} />
         <Route path="/Courses/A2/LevelA2" element={<  LevelA2 />} />
