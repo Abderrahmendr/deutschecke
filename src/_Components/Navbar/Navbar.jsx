@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
 
 const navigation = [
+  { name: 'Home', href: '/', current: false },
   { name: 'Cources', href: '/Course', current: true },
   { name: 'About Me', href: '/about', current: false },
   { name: 'Blog', href: '/blog', current: false },
@@ -31,9 +32,14 @@ export default function Navbar() {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         {/** Logo */}
             <div className="flex shrink-0 items-center">
+              <button>
+                  <a href="/" >
+
                <span className='font-extrabold'>Deuts</span>
                <span className='text-[#DD0000] font-extrabold'>chE</span>
                <span className='text-[#FFCC00] font-extrabold'>cke</span>
+                  </a>
+              </button>
 
             </div>
             <div className="hidden sm:ml-6 sm:block">
