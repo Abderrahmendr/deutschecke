@@ -1,6 +1,12 @@
 import React from 'react'
-
+import { IoCheckmarkDoneCircleSharp } from "react-icons/io5";
 const YourGermanJourney = () => {
+
+  const offers = [
+            <p>Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale <br/>  Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>,
+            <p>Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale <br/>  Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>,
+            <p>Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale<br/>  Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>
+  ]
   return (
   
      <div className='bg-gray-100 min-h-screen'>
@@ -90,6 +96,72 @@ const YourGermanJourney = () => {
   </div>
       </div>
       {/* Study */}
+    </div>
+  {/** End Main Content */}
+      <div className=" 
+      rounded-lg bg-[#ffea00] h-[832px] overflow-hidden
+      relative mt-8  ml-6 mr-6 md:ml-12 md:mr-12 lg:ml-16 lg:mr-16 xl:ml-20 xl:mr-20
+      ">
+      {/* Gray rectangle with shadow */}
+      <div className="absolute bg-[#d9d9d9] rounded-[38px] 
+      border border-black w-[483px] h-[552px] left-[50px] 
+      top-[120px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25),8px_8px_5.2px_3px_rgba(0,0,0,0.25)]"></div>
+
+      {/* Germany image */}
+      <img src="/Deutschland.png"
+        alt="Germany"
+        className="absolute w-[452px] h-[542px] left-[66px] 
+        top-[120px] object-cover aspect-[452/542]"
+      />
+
+      {/* Main Title */}
+      <div className="absolute text-black text-left
+       font-bold text-[36px] left-[640px] pr-8
+       top-[120px] font-['IstokWeb']">
+        SPEAK GERMAN LIKE NATIVE   JUST in 3 MOTHS
+      </div>
+
+      {/* Check marks */}
+      <div className='relative flex flex-col items-center justify-center
+                      mt-36 ml-24 md:ml-32 lg:ml-40 xl:ml-96 xl:mt-72
+                      gap-y-4  text-responsive-text
+      '>
+            <span className='flex items-center gap-x-2 ml-52'>
+                  <IoCheckmarkDoneCircleSharp className="-mt-8"/>
+      <p>Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale <br/>  Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>
+     
+            </span> 
+            <span className='flex items-center gap-x-2 ml-52'>
+                  <IoCheckmarkDoneCircleSharp/>
+      <p>Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale <br/> Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>
+     
+            </span> 
+            <span className='flex items-center gap-x-2 ml-52'>
+                  <IoCheckmarkDoneCircleSharp/>
+      <p>Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale<br/>  Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>
+     
+            </span> 
+      </div>
+
+     
+      {/* Diagonal line */}
+      <div className="absolute border-t border-black w-[551.06px] left-[558px] top-[156px] origin-[0_0] rotate-[89.168deg]"></div>
+
+      {/* Horizontal line */}
+      <div className="absolute border-t border-black w-[500px] left-[66px] top-[707px]"></div>
+
+      {/* Gray buttons */}
+      <div className="absolute bg-[#d9d9d9] rounded-[20px] w-[172px] h-[55px] left-[610px] top-[737px]"></div>
+      <div className="absolute bg-[#d9d9d9] rounded-[20px] w-[172px] h-[55px] left-[31px] top-[743px]"></div>
+      <div className="absolute bg-[#d9d9d9] rounded-[20px] w-[172px] h-[55px] left-[416px] top-[30px]"></div>
+
+      {/* Text labels */}
+      <div className="absolute text-black text-left font-bold text-[24px] left-[462px] top-[40px] font-['IstokWeb']">
+        Dialekt
+      </div>
+      <div className="absolute text-black text-left font-bold text-[24px] left-[661px] top-[747px] font-['IstokWeb']">
+        Kultur
+      </div>
     </div>
     </div>
   )
