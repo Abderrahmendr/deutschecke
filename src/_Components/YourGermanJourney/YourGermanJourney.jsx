@@ -4,13 +4,13 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const YourGermanJourney = () => {
 
   const offers = [
-     {id:<IoCheckmarkDoneCircleSharp className='text-6xl mr-2' />,  
-      disc:<p className='mt-12 text-md ' >Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale  
+     {id:<IoCheckmarkDoneCircleSharp className='text-3xl  mr-2' />,  
+      disc:<p className=' text-md ' >Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale  
        Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>},
-     {id:<IoCheckmarkDoneCircleSharp className='text-6xl mr-2 -mt-12'  />,  
+     {id:<IoCheckmarkDoneCircleSharp className='text-3xl mr-2' />,  
       disc:<p className='text-md ' >Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale  
       Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>},
-    {id:<IoCheckmarkDoneCircleSharp className='text-6xl mr-2  -mt-12'  />,  
+    {id:<IoCheckmarkDoneCircleSharp className='text-3xl mr-2' />,  
       disc:<p className=' text-md ' >Lerne nicht nur Standarddeutsch, sondern tauch ein in regionale
        Traditionen und Dialekte – von bayrischem ,Servus‘ bis kölsch ,Alaaf‘!“</p>},
   ]
@@ -107,75 +107,65 @@ const YourGermanJourney = () => {
   {/** End Main Content */}
 
 
-      <div className=" relative flex flex-col  lg:flex-rows xl:grid-rows-2
-      rounded-lg bg-[#ffea00] h-[832px] overflow-hidden
-      relative mt-8  ml-6 mr-6 md:ml-12 md:mr-12 lg:ml-16 lg:mr-16 xl:ml-20 xl:mr-20
-      ">
+      <div className="relative flex flex-col rounded-lg bg-[#ffea00] h-auto lg:h-[832px] overflow-hidden mt-8 mx-6 md:mx-12 lg:mx-16 xl:mx-20">
+  {/* Container for image and content side by side on larger screens */}
+  <div className="flex flex-col lg:flex-row w-full">
+    
+                                     {/* Left side - Image container */}
+    <div className="relative w-full lg:w-auto px-4 lg:px-0">
       {/* Gray rectangle with shadow */}
+      <div className="relative bg-[#d9d9d9] rounded-[38px]
+       border border-black w-full max-w-[483px] h-[300px] 
+       sm:h-[400px] lg:h-[552px] lg:w-[600px] mx-auto lg:ml-[50px] 
+       lg:mr-0 mt-8 lg:mt-[120px] 
+       shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25),8px_8px_5.2px_3px_rgba(0,0,0,0.25)]">
+        {/* Germany image */}
+        <img 
+          src="/Deutschland.png"
+          alt="Germany"
+          className="absolute w-[calc(100%-30px)] h-[calc(100%-10px)] 
+          left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2
+          object-cover rounded-[30px]
+           "
+        />
+      </div>
       
-      <div className="absolute bg-[#d9d9d9] rounded-[38px] 
-      border border-black w-[483px] h-[552px] left-[50px] 
-      lg:w-[450px] lg:h-[552px] xl:w-[483px] xl:h-[552px]
-      top-[120px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25),8px_8px_5.2px_3px_rgba(0,0,0,0.25)]"></div>
+      {/* Horizontal line - only shows on mobile */}
+      <div className="border-t border-black w-full max-w-[500px] mx-auto mt-8 mb-8 lg:hidden"></div>
+    </div>
 
-      {/* Germany image */}
-      <img src="/Deutschland.png"
-        alt="Germany"
-        className="absolute w-[452px] h-[542px] left-[66px] 
-        md:w-[432px] md:h-[542px] lg:w-[452px] lg:h-[542px] xl:w-[452px] xl:h-[542px]
-        top-[120px] object-cover aspect-[452/542]"
-      />
-
+    {/* Right side - Content */}
+    <div className="relative w-full px-6 lg:px-0 lg:pl-12 xl:pl-16 flex flex-col">
       {/* Main Title */}
-      <div className="absolute   text-left
-       left-[640px] pr-8  
-       grid grid-rows-2 md:grid-rows-1 lg:grid-rows-2 xl:grid-rows-2
-       ">
-        <h1 className='text-black text-4xl mt-28 font-bold text-[36px] lg:text-3xl md:text-2xl'>
-              SPEAK GERMAN LIKE NATIVE   JUST in 3 MOTHS
+      <h1 className='text-black text-2xl sm:text-3xl 
+      md:text-4xl font-bold mt-8 lg:mt-24 xl:mt-28 text-center lg:text-left'>
+        SPEAK GERMAN LIKE A NATIVE JUST IN 3 MONTHS
+      </h1>
 
-        </h1>
-         {
-    offers.map((offer, index)=>{
-      return(
-        <div className='
-        '>
-          <div key={index} className='
-                      flex flex-rows-2 justify-center items-center p-4
-                      text-sm
-        '>
-         {offer.id}
-          <div className='text-black text-lg font-semibold'>
-            {offer.disc}
+      {/* Offers list */}
+      <div className="mt-4 ">
+        {offers.map((offer, index) => (
+          <div key={index} className='flex items-center p-3 sm:p-4'>
+            <div className='  flex font-semibold'>
+              {offer.id}
+              {offer.disc}
+            </div>
           </div>
-         </div>
-         
-          </div>
-      )
-    })
-  }
-    <span className='flex w-1/3 mt-8 text-black  cursor-pointer 
-        bg-black text-white hover:scale-105 px-6 py-3 rounded-lg
-        '>
-          Get started <IoIosArrowRoundForward className=' ml-4 text-2xl' />
+        ))}
+      </div>
+
+      {/* Button */}
+      <div className="mt-8 lg:mt-12 mb-12 lg:mb-0 flex justify-center lg:justify-start">
+        <span className='flex items-center text-white cursor-pointer bg-black hover:scale-105 px-6 py-3 rounded-lg transition-transform w-max'>
+          Get started <IoIosArrowRoundForward className='ml-4 text-2xl' />
         </span>
       </div>
-
-     
-      {/* Diagonal line */}
-      <div className="absolute border-t border-black w-[551.06px] left-[558px] top-[156px] origin-[0_0] rotate-[89.168deg]"></div>
-
-      {/* Horizontal line */}
-      <div className="absolute border-t border-black w-[500px] left-[66px] top-[707px]"></div>
-        
-        {/* Button */}
-       <div className="
-       flex items-center justify-center  mt-80
-       ">
-         
-      </div>
-      
     </div>
+  </div>
+
+  {/* Diagonal line - only shows on larger screens */}
+  <div className="hidden lg:block absolute border-t border-black w-[551.06px] left-[558px] top-[156px] origin-[0_0] rotate-[89.168deg]"></div>
+</div>
     </div>
   )
 }
