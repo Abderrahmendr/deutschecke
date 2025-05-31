@@ -6,9 +6,10 @@ import {faUser} from "@fortawesome/free-solid-svg-icons";
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'Cources', href: '/Course', current: false },
-  { name: 'About Me', href: '/about', current: false },
-  { name: 'Blog', href: '/blog', current: false },
+  { name: 'Sprachniveau', href: '/Course', current: false }, 
+  { name: 'Übungen', href: '/Übungen', current: false },
+  { name: 'Lernmaterial', href: '/Lernmaterial', current: false },
+  { name: 'Über mich', href: '/ÜberMich', current: false },
  ]
 
 function classNames(...classes) {

@@ -5,8 +5,16 @@ const ChoosePlan = () => {
     <section className='pl-16 pr-16  mt-16'>
         {/** Main Title Secion */}
          <div>
-            <h2 className='text-3xl font-bold text-center mb-8'>Choose Your Plan</h2>
-            <p className='text-center text-gray-600 mb-12'>Select the plan that best suits your learning needs.</p>
+            <h2 className='
+            text-3xl font-bold text-center mb-8
+            '>
+              Wähle deinen Plan
+            </h2>
+            <p className='
+            text-center text-gray-600 mb-12
+            '>
+              Wähle den Plan, der am besten zu deinen Bedürfnissen passt.
+               </p>
          </div>
         
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-16' >
