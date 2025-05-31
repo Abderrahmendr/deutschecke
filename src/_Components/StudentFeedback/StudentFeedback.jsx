@@ -5,10 +5,10 @@ const StudentFeedback = () => {
     <div className="flex flex-col items-center justify-center w-full mt-24">
             {/** Title Section */}
         <div className='flex justify-center items-center
-                              font-bold text-3xl 
+                              font-bold text-3xl mt-16 mb-6
               '>
             <h1>
-                    What our students are saying
+                    Was unsere Schüler sagen
             </h1>
         </div>
               {/** Feedback from John */}
