@@ -8,7 +8,7 @@ import  LevelB2 from './_Components/Courses/B2/LevelB2';
 import  LevelC1 from './_Components/Courses/C1/LevelC1';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './_Components/Home/Home';
-
+import Footer from './_Components/Footer/Footer';
 function App() {
   return (
     <div className='bg-gray-100 min-h-screen overflow-x-hidden'>
@@ -25,6 +25,7 @@ function App() {
         <Route path="/Courses/C1/LevelC1" element={<  LevelC1 />} />
     </Routes>  
     </BrowserRouter>
+    <Footer />
         </div>
    
 
