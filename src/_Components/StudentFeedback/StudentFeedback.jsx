@@ -11,12 +11,12 @@ const StudentFeedback = () => {
                     Was unsere Schüler sagen
             </h1>
         </div>
-              {/** Feedback from John */}
+              {/** Feedback from Ali */}
               <div className="  grid grid-cols-1 lg:grid-cols-3  xl:grid-cols-3 gap-x-4 pr-20 pl-20
     items-center justify-center w-full  py-10 ">
                    <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/ali.jpeg" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/ali.jpeg" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -52,7 +52,7 @@ const StudentFeedback = () => {
               {/** Feedback from Anna */}
         <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/anna.jpg" alt="Anna" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/anna.jpg" alt="Anna" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -92,7 +92,7 @@ const StudentFeedback = () => {
               {/** Feedback from Hafsa */}
          <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/hafsa.avif" alt="Hafsa" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/hafsa.avif" alt="Hafsa" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -131,7 +131,7 @@ const StudentFeedback = () => {
               {/** Feedback from Mosatafa */}
         <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/mostafa.avif" alt="Mostafa" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/mostafa.avif" alt="Mostafa" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -167,7 +167,7 @@ const StudentFeedback = () => {
                {/** Feedback from Nihad */}
         <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/nihad.avif" alt="Nihad" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/nihad.avif" alt="Nihad" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">

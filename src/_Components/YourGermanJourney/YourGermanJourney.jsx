@@ -121,7 +121,7 @@ Von Uni-Vokabeln bis Studentenslang: Wir machen dich fit für den Campus-Alltag!
        shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25),8px_8px_5.2px_3px_rgba(0,0,0,0.25)]">
         {/* Germany image */}
         <img 
-          src="/Deutschland.png"
+          src="/assets/Deutschland.png"
           alt="Germany"
           className="absolute w-[calc(100%-30px)] h-[calc(100%-10px)] 
           left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2

@@ -14,7 +14,7 @@ const Hero = () => {
      <div class="w-full h-64 
      md:mt-12  md:w-4/5 md:h-96
      lg:w-2/3 lg:h-auto lg:-mr-36 lg:-mt-8">
-        <img class="h-full w-full object-cover" src="/Learn-german.png" alt="Learn-german"/>
+        <img class="h-full w-full object-cover" src="/assets/Learn-german.png" alt="Learn-german"/>
     </div>
  
      <div
