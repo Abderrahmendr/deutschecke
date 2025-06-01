@@ -45,9 +45,7 @@ const StudentFeedback = () => {
   </div>
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Endlich verstehe ich deutsche Serien ohne Untertitel! Die ‘Dialekt-Challenges’ und Podcasts über deutsche Eigenheiten (Warum sagt man ‘Tschüss’ zum Abschied??) machen süchtig.&quot;
     </p>
   </div>
        </div>  
@@ -85,9 +83,9 @@ const StudentFeedback = () => {
               {/** Feedback Text */}
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Endlich verstehe ich Deutsch!  Die Übungen sind so klar erklärt,
+       dass ich sogar meine Freunde korrigiere. Die Audio-Beispiele helfen mir mega beim Sprechen 
+       – bitte mehr davon!&quot;
     </p>
   </div>
        </div>       
@@ -125,9 +123,8 @@ const StudentFeedback = () => {
           {/** Feedback Text */}
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Von A1 bis C1 – hier bin ich gewachsen!
+       Die Kurse passen sich dem Fortschritt an, und die Lehrer antworten sogar auf Fragen im Forum. Unbezahlbar!&quot;
     </p>
   </div>
        </div> 
@@ -161,9 +158,8 @@ const StudentFeedback = () => {
   </div>
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Ich war skeptisch, aber... nach 2 Wochen täglicher Nutzung habe ich meine Prüfung bestanden!
+       Die simulierten Tests und Tipps zur Aussprache waren der Game-Changer.&quot;
     </p>
   </div>
        </div> 
@@ -196,9 +192,8 @@ const StudentFeedback = () => {
       {/** Feedback Text */}
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Deutsch lernen mal anders! Ich liebe die Memes und Rätsel – 
+      so macht Vokabeln pauken Spaß. Die Community-Chats sind auch goldwert, um Slang zu lernen.&quot;
     </p>
   </div>
        </div> 
@@ -236,9 +231,8 @@ const StudentFeedback = () => {
             {/** Feedback Text */}                  
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Als Berufstätiger brauche ich strukturierte Lektionen, 
+      die ich flexibel nutzen kann. Die Grammatik-Tabellen und Business-Deutsch-Kapitel sind perfekt für mich.&quot;
     </p>
   </div>
        </div>      
