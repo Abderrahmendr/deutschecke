@@ -11,12 +11,12 @@ const StudentFeedback = () => {
                     Was unsere Schüler sagen
             </h1>
         </div>
-              {/** Feedback from John */}
+              {/** Feedback from Ali */}
               <div className="  grid grid-cols-1 lg:grid-cols-3  xl:grid-cols-3 gap-x-4 pr-20 pl-20
     items-center justify-center w-full  py-10 ">
                    <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/ali.jpeg" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/ali.jpeg" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -45,16 +45,14 @@ const StudentFeedback = () => {
   </div>
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Endlich verstehe ich deutsche Serien ohne Untertitel! Die ‘Dialekt-Challenges’ und Podcasts über deutsche Eigenheiten (Warum sagt man ‘Tschüss’ zum Abschied??) machen süchtig.&quot;
     </p>
   </div>
        </div>  
               {/** Feedback from Anna */}
         <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/anna.jpg" alt="Anna" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/anna.jpg" alt="Anna" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -85,16 +83,16 @@ const StudentFeedback = () => {
               {/** Feedback Text */}
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Endlich verstehe ich Deutsch!  Die Übungen sind so klar erklärt,
+       dass ich sogar meine Freunde korrigiere. Die Audio-Beispiele helfen mir mega beim Sprechen 
+       – bitte mehr davon!&quot;
     </p>
   </div>
        </div>       
               {/** Feedback from Hafsa */}
          <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/hafsa.avif" alt="Hafsa" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/hafsa.avif" alt="Hafsa" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -125,16 +123,15 @@ const StudentFeedback = () => {
           {/** Feedback Text */}
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Von A1 bis C1 – hier bin ich gewachsen!
+       Die Kurse passen sich dem Fortschritt an, und die Lehrer antworten sogar auf Fragen im Forum. Unbezahlbar!&quot;
     </p>
   </div>
        </div> 
               {/** Feedback from Mosatafa */}
         <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/mostafa.avif" alt="Mostafa" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/mostafa.avif" alt="Mostafa" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -161,9 +158,8 @@ const StudentFeedback = () => {
   </div>
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Ich war skeptisch, aber... nach 2 Wochen täglicher Nutzung habe ich meine Prüfung bestanden!
+       Die simulierten Tests und Tipps zur Aussprache waren der Game-Changer.&quot;
     </p>
   </div>
        </div> 
@@ -171,7 +167,7 @@ const StudentFeedback = () => {
                {/** Feedback from Nihad */}
         <div class="flex w-full p-4 max-w-lg flex-col rounded-lg bg-white shadow-sm border border-slate-200 my-6">
   <div class="flex items-center gap-4 text-slate-800">
-    <img src="/nihad.avif" alt="Nihad" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
+    <img src="/assets/nihad.avif" alt="Nihad" class="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
     <div class="flex w-full flex-col">
       <div class="flex items-center justify-between">
         <h5 class="text-xl font-semibold text-slate-800">
@@ -196,9 +192,8 @@ const StudentFeedback = () => {
       {/** Feedback Text */}
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Deutsch lernen mal anders! Ich liebe die Memes und Rätsel – 
+      so macht Vokabeln pauken Spaß. Die Community-Chats sind auch goldwert, um Slang zu lernen.&quot;
     </p>
   </div>
        </div> 
@@ -236,9 +231,8 @@ const StudentFeedback = () => {
             {/** Feedback Text */}                  
   <div class="mt-6">
     <p class="text-base text-slate-600 font-light leading-normal">
-      &quot;I found solution to all my design needs from Creative Tim. I use
-      them as a freelancer in my hobby projects for fun! And its really
-      affordable, very humble guys !!!&quot;
+      &quot;Als Berufstätiger brauche ich strukturierte Lektionen, 
+      die ich flexibel nutzen kann. Die Grammatik-Tabellen und Business-Deutsch-Kapitel sind perfekt für mich.&quot;
     </p>
   </div>
        </div>      
