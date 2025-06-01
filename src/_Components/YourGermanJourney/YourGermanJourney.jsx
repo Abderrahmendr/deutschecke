@@ -106,7 +106,7 @@ Von Uni-Vokabeln bis Studentenslang: Wir machen dich fit für den Campus-Alltag!
   {/** End Main Content */}
 
 
-      <div className="relative flex flex-col rounded-lg bg-[#ffea00] mt-28
+      <div className="relative flex flex-col rounded-lg bg-[#ffea00] mt-36
        h-auto lg:h-[832px] overflow-hidden mt-8 mx-6 md:mx-12 lg:mx-16 xl:mx-20">
   {/* Container for image and content side by side on larger screens */}
   <div className="flex flex-col lg:flex-row w-full">
